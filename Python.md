@@ -74,3 +74,20 @@ you can also use Ubuntu's sources packages and that's a unique way to deal with 
 
 
 Oh like Mohan was mentioning yesterday there is something called the IDLE python thing.
+
+
+
+### Virtual Environments
+
+the day I'm installing conda I need to take care of these resources
+
+[comparison to other tools // pip vs pipx](https://pypa.github.io/pipx/comparisons/#:~:text=pip%20is%20a%20general%20Python,install%20packages%20with%20cli%20entrypoints.)
+[all tools difference // stackoverflow](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe#)
+- exp user review
+
+[virtualenv vs venv](https://www.infoworld.com/article/3239675/virtualenv-and-venv-python-virtual-environments-explained.html)
+- a lott things
+
+[conda for python what & why // youtube](https://www.youtube.com/watch?v=23aQdrS58e0)
+- very good points
+- anaconda navigator

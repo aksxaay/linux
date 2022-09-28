@@ -12,3 +12,9 @@ in order to open something in vim you just have to do
 ```
 compgen -flag
 ```
+
+
+
+### Developer Workflow
+[really fast git worflow - josh medeski](https://www.youtube.com/watch?v=D0RvVkebVSY)
+- lazy git, tmux, nvim, ranger similar tool?
