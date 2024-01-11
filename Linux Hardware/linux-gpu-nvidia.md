@@ -1,3 +1,5 @@
+integrated GPU can handle 4k video, but **brave** has issues.
+
 okay i'm trying to use Nvidia on demand because using it all on the gpu is kinda wack.
 
 run with gpu command works but doesn't work completely
@@ -81,3 +83,36 @@ There was this [comfy guide Nvidia Optimus](https://www.youtube.com/watch?v=Pn2i
 and this is pretty much the best video I have seen.
 
 [denshi wiki nvidia](https://wiki.denshi.org/hypha/software/nvidia)
+
+
+### words of wisdom from Cocogoat
+> Basically, the way it’s wired internally
+For example on my lappy
+Internal display is connected to iGPU and so does HDMI
+But USB-C is a direct link to the GPU
+Plugging a display there bypasses the iGPU
+
+MX chips don’t have video output exposed
+They must be channeled through the iGPU
+
+> MX chips don’t have video output exposed
+They must be channeled through the iGPU
+All previous M series Nvidia are like this 
+All the MXs
+And some low end 10/20/30 series
+
+test to verify
+> Simple really
+Just plug a display in and look at Nvidia control panel
+If you gain display control then it’s on the dGPU
+Because you can only adjust those when the GPU is in control of the display
+
+
+on-demand
+![[on-demand-nvidia-settings.png]]
+
+
+[NVIDIA Driver with Optimus Laptops](https://download.nvidia.com/XFree86/Linux-x86_64/535.54.03/README/optimus.html)
+`nvidia-prime` doesn't do anything by itself but does things with the NVIDIA X Server Settings and gives us PRIME profiles
+
+use the arch wiki for almost everything
